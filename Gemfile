@@ -11,6 +11,8 @@ gem 'gravatar_image_tag', '1.0.0.pre2'
 group :development do
   gem 'rspec-rails', '2.5.0'
   gem 'annotate', :git => 'git://github.com/ctran/annotate_models.git'
+  gem 'faker', '0.3.1'
+  gem 'will_paginate', '3.0.4'
 end
 
 group :test do
